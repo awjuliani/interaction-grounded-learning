@@ -6,7 +6,7 @@ In IGL, rather than being provided with a reward signal from the environment, a 
 
 ![Problem Setting](./images/setting.png)
 
-My implementation differs slightly from that of the original paper, but converges consistently on the MNIST digit identification task, and is robust to hyperparameters and initialization seeds.
+My implementation differs slightly from that of the original paper, but converges consistently on the MNIST digit identification task, and is robust to hyperparameters and initialization seeds. Performance of IGL method is comparable to that of contextual bandit with access to ground truth reward.
 
 ![Results](./images/results.png)
 
